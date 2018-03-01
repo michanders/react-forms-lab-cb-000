@@ -17,8 +17,8 @@ class PoemWriter extends React.Component {
 
   checkPoem = () => {
     var valid = false;
-    var poem = this.state.value;
-    
+    var poem = this.state.value.split(".");
+
   }
 
   render() {
