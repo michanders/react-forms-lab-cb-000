@@ -18,7 +18,7 @@ class LoginForm extends React.Component {
 
   passChange = event => {
     this.setState({
-      event.targe.password: event.target.value
+      event.target.password: event.target.value
     })
   }
 
