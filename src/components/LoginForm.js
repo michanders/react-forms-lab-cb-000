@@ -10,13 +10,19 @@ class LoginForm extends React.Component {
     };
   }
 
+  nameChange = event => {
+    this.setState({
+      event.target.username: event.target.value
+    })
+  }
+
   render() {
     return (
-      <form>
+      <form >
         <div>
           <label>
             Username
-            <input name = "username"id="test-username" type="text" />
+            <input name = "username" id="test-username" type="text" value={this.state.username} />
           </label>
         </div>
         <div>
