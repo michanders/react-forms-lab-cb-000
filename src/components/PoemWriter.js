@@ -19,10 +19,11 @@ class PoemWriter extends React.Component {
     var valid = false;
     var poem = this.state.value.split(". ");
     var line = peom.map(line => line.split(" "));
-    var 0 = poem[0].split(" ");
-    if (poem.length === 3 && poem[0].length){
-      
+  
+    if (poem.length === 3 && line[0].length === 5 && line[1] === 3 && line[2] === 5){
+      let valid = true;
     }
+    return valid
   }
 
   render() {
