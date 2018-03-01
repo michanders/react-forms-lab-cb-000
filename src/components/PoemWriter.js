@@ -9,6 +9,12 @@ class PoemWriter extends React.Component {
     };
   }
 
+  poemChange = event => {
+    this.setState({
+      value: event.target.value
+    })
+  }
+
   render() {
     return (
       <div>
