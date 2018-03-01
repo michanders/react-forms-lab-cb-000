@@ -16,7 +16,7 @@ class LoginForm extends React.Component {
         <div>
           <label>
             Username
-            <input id="test-username" type="text" />
+            <input name = "username"id="test-username" type="text" />
           </label>
         </div>
         <div>
