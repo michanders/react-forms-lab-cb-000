@@ -23,7 +23,7 @@ class PoemWriter extends React.Component {
     if (poem.length === 3 && line[0].length === 5 && line[1] === 3 && line[2] === 5){
       let valid = true;
     }
-    return valid
+    return valid;
   }
 
   render() {
